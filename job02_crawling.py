@@ -25,7 +25,7 @@ driver = webdriver.Chrome('./chromedriver', options=option)
 driver.implicitly_wait(10)
 
 category = ['Politics', 'Economic', 'Social',
-            'Culture', 'IT', 'World']
+            'Culture', 'World', 'IT']
 page_num = [242, 374, 486, 71, 76, 125]
 #//*[@id="section_body"]/ul[3]/li[5]/dl/dt/a
 df_title = pd.DataFrame()
